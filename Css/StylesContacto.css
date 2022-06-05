@@ -1,0 +1,59 @@
+/*-----------------------HOJA CONTACTO-----------------------*/
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(170,99,51);
+    background: radial-gradient(circle, rgba(170,99,51,0) 0%, rgba(255,128,0,1) 100%);
+}
+/* HEADER */
+header {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgba(255,128,0,1) 100%;
+}
+.logo-nav{
+    height: 100px;
+    width: 100px;
+}
+/*Main*/
+/*
+.contenedorformulario{
+    margin: auto;
+    margin-top: 15%;
+    border: 5px double black;
+    border-radius: 5px;
+    height: 500px;
+    width: 1000px;
+}
+*/
+.container{
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.grupo{
+    margin-left: 25%;
+    margin-bottom: 30px;
+}
+
+/* FOOTER */
+.menu__Footer{
+    margin: auto;
+    overflow: hidden;
+}
+.menufot__mapa{
+    width: 100%;
+    height: 200px;
+}
+.gmail{
+    height: 50px;
+    width: 50px;
+}
+.whatsapp{
+    height: 50px;
+    width: 50px;
+}
+.ubicacion{
+    height: 50px;
+    width: 50px;
+}

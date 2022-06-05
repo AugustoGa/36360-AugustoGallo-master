@@ -1,0 +1,101 @@
+/*-----------------------HOJA INDEX-----------------------*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(170,99,51);
+    background: radial-gradient(circle, rgba(170,99,51,0) 0%, rgba(255,128,0,1) 100%);
+}
+/* HEADER */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgba(255,128,0,1) 100%;
+}
+.logo-nav{
+    height: 100px;
+    width: 100px;
+}
+/* MAIN */
+.menucuerpo{
+    display: block;
+    display: flex;
+    margin: auto;
+    margin-top: 15%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.column{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#imagen{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    border: none;
+    background: rgba(255,128,0,1);
+}
+.contenedorgaleria{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    object-fit: fill;
+}
+@media (min-width:100px){
+    .contenedorgaleria{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width:728px){
+    .contenedorgaleria{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width:1024px){
+    .contenedorgaleria{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.contenedorgaleria__maquina{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+}
+.button{
+    border: none;
+}
+/* FOOTER */
+.menu__Footer{
+    margin: auto;
+    overflow: hidden;
+}
+.menufot__mapa{
+    width: 100%;
+    height: 200px;
+}
+.gmail{
+    height: 50px;
+    width: 50px;
+}
+.whatsapp{
+    height: 50px;
+    width: 50px;
+}
+.ubicacion{
+    height: 50px;
+    width: 50px;
+}
